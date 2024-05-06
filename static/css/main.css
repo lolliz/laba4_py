@@ -1,0 +1,53 @@
+body {
+    background-image: url('/static/fon2.jpg'); /* Указывает путь к изображению */
+    background-size: cover; /* Заполняет всю доступную область */
+    background-position: center; /* Выравнивает изображение по центру */
+    background-repeat: no-repeat; /* Запрещает повторение изображения */
+}
+
+h1 {
+    text-align: center;
+}
+
+header {
+background-color: #333;
+color: #fff;
+padding: 10px;
+}
+
+nav {
+display: flex;
+gap: 20px;
+}
+
+nav a {
+color: #fff;
+}
+
+main {
+padding: 20px;
+}
+
+form {
+max-width: 400px;
+margin: 0 auto;
+}
+
+label {
+display: block;
+margin-bottom: 5px;
+}
+
+input {
+width: 100%;
+padding: 5px;
+margin-bottom: 10px;
+}
+
+button {
+padding: 10px;
+background-color: #333;
+color: #cc8899;
+border: none;
+cursor: pointer;
+}
